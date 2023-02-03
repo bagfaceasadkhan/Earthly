@@ -1,0 +1,47 @@
+.mainContainer {
+  width: 100%;
+  height: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contentContainer {
+  display: grid;
+  width: 70%;
+  height: 70%;
+  grid-template-rows: 0.2fr 1fr;
+}
+
+.contentContainer .headerContainer {
+  font-size: 52px;
+  font-weight: 700;
+}
+.contentContainer .miniContent {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  height: 100%;
+}
+.contentContainer .miniContent .left {
+  background: url("../../public/banner.png");
+  background-size: cover;
+  background-position: center;
+}
+.contentContainer .miniContent .right {
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-size: 20px;
+  background-color: #e6f9ee;
+}
+.contentContainer .miniContent .right ul {
+  text-decoration: none;
+  list-style: none;
+}
+.contentContainer .miniContent .right h5 {
+  font-weight: 600;
+  font-size: 30px;
+}

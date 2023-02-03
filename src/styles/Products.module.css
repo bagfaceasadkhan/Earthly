@@ -1,0 +1,66 @@
+.mainContainer {
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainContainer .miniContainer {
+  height: 100%;
+  width: 70%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  background-color: #e6f9ee;
+}
+
+.mainContainer .miniContainer .pictureContainerOne {
+  height: 100%;
+  width: 100%;
+
+  background: url("../../public/banner.png");
+  background-size: cover;
+  background-position: center;
+}
+.mainContainer .miniContainer .pictureContainerTwo {
+  height: 100%;
+  width: 100%;
+
+  background: url("../../public/bamboo.png");
+  background-size: cover;
+  background-position: center;
+}
+.mainContainer .miniContainer .pictureContainerThree {
+  height: 100%;
+  width: 100%;
+
+  background: url("../../public/too.png");
+  background-size: cover;
+  background-position: center;
+}
+.mainContainer .miniContainer .pictureContainerFour {
+  height: 100%;
+  width: 100%;
+
+  background: url("../../public/scrub.png");
+  background-size: cover;
+  background-position: center;
+}
+.mainContainer .miniContainer .pictureContainerFive {
+  height: 100%;
+  width: 100%;
+
+  background: url("../../public/cup.png");
+  background-size: cover;
+  background-position: center;
+}
+.mainContainer .miniContainer .pictureContainerSix {
+  height: 100%;
+  width: 100%;
+
+  background: url("../../public/brush.png");
+  background-size: cover;
+  background-position: center;
+}

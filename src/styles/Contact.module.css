@@ -1,0 +1,56 @@
+.mainContainer {
+  height: 600px;
+  display: flex;
+  justify-content: center;
+}
+
+.mainContainer .miniContainer {
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 70%;
+}
+.mainContainer .headerContainer {
+  font-size: 52px;
+  font-weight: 700;
+}
+
+.mainContainer .miniContainer .inputs [type="text"] {
+  width: 60%;
+  border-radius: 5px;
+  padding: 10px;
+  border: 1px solid gray;
+  height: 50px;
+}
+.mainContainer .miniContainer .inputs [type="email"] {
+  width: 60%;
+  border-radius: 5px;
+  padding: 10px;
+  border: 1px solid gray;
+  height: 50px;
+}
+.mainContainer .miniContainer .inputs {
+  display: flex;
+  height: 100%;
+
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.miniContainer .inputs [type="text-area"] {
+  width: 60%;
+  height: 70px;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+.miniContainer .inputs button {
+  width: 60%;
+  height: 60px;
+  font-size: 20px;
+  color: white;
+  background-color: #2e7f42;
+  border: none;
+}
