@@ -54,3 +54,63 @@
   background-color: #2e7f42;
   border: none;
 }
+
+@media screen and (max-width: 1000px) {
+  .mainContainer {
+    margin-top: 300px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .mainContainer .miniContainer {
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 90%;
+  }
+  .mainContainer .headerContainer {
+    font-size: 42px;
+    font-weight: 600;
+  }
+
+  .mainContainer .miniContainer .inputs [type="text"] {
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid gray;
+    height: 30px;
+  }
+  .mainContainer .miniContainer .inputs [type="email"] {
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid gray;
+    height: 30px;
+  }
+  .mainContainer .miniContainer .inputs {
+    display: flex;
+    height: 100%;
+
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .miniContainer .inputs [type="text-area"] {
+    width: 100%;
+    height: 60px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+  }
+  .miniContainer .inputs button {
+    width: 50%;
+    height: 50px;
+    font-size: 20px;
+    color: white;
+    background-color: #2e7f42;
+    border: none;
+  }
+}
